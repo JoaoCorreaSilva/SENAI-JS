@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administração de Ordem de Serviço</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="Resolver">Resolver</button>
+  <div class="container">
+    <img src="senai.svg">
+    <h1>Administração de Ordem de Serviço</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Ambiente</th>
+          <th>Nome</th>
+          <th>Turma</th>
+          <th>Período</th>
+          <th>Descrição do Problema</th>
+          <th>Patrimônio</th>
+          <th>Professor</th>
+          <th>Status</th>
+          <th>Data de Solução</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody id="ordersTable">
+        <!-- Os registros serão adicionados dinamicamente aqui -->
+      </tbody>
+    </table>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content"></div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
